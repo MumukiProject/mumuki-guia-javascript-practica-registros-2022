@@ -1,22 +1,25 @@
-¡Otra nueva reglamentación! Después de algunas quejas contra el I.V.G. 😡, se determinó que ningún pozo deberá pagar el impuesto más de tres veces. En otras palabras, al aplicar el impuesto, sólo deberemos descontar del pozo su monto si se aplicó hasta 3 veces. Ejemplo:
+¡Otra nueva reglamentación! Después de algunas quejas contra el I.V.G. 😡, se determinó que ningún pozo deberá pagar el impuesto más de tres veces. En otras palabras, al aplicar el impuesto, sólo deberemos descontar del pozo su monto si se aplicó hasta 3 veces. 
 
->>> monto = 100000
->>> aplicar_ivg() # primera aplicación
->>> monto
+Por ejemplo:
+
+```javascript
+ム pozo = 100000
+ム aplicarIvg() // primera aplicación
+ム pozo
 99500
->>> aplicar_ivg() # segunda aplicación
->>> monto
+ム aplicarIvg() // segunda aplicación
+ム pozo
 99000
->>> aplicar_ivg() # tercera aplicación
->>> monto
+ム aplicarIvg() // tercera aplicación
+ム pozo
 98500
->>> aplicar_ivg() # cuarta aplicación
->>> aplicar_ivg() # quinta aplicación
->>> aplicar_ivg() # etc
->>> aplicar_ivg() # etc
->>> monto
-98500 # a partir de la cuarta aplicación ya no se descuenta más del pozo
-Modificá el procedimiento aplicar_ivg para que refleje estos cambios de reglamentación.
+ム aplicarIvg() // cuarta aplicación
+ム aplicarIvg() // quinta aplicación
+ム aplicarIvg() // etc
+ム aplicarIvg() // etc
+ム pozo
+98500 // a partir de la cuarta aplicación ya no se descuenta más del pozo
+```
+> Modificá el procedimiento `aplicarIvg` para que refleje estos cambios de reglamentación.
 
-💡 Sugerencia: para poder hacer estos cambios en la aplicación del impuesto I.V.G., quizás te convenga agregar nuevas variables globales (qué ironía 😜).
 
