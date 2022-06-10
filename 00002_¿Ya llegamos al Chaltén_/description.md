@@ -2,7 +2,7 @@ Una empresa de viajes nos pidió ayuda para calcular cuantos asientos necesitan 
 Por ejemplo:
 
 ```javascript
-ム let pozo = 3000
+ム pozo = 3000
 ム cuantaGenteViajaAlChalten()
 1
 ム pozo = 1500
